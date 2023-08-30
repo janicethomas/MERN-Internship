@@ -3,15 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tasks</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        table, th, td{
+            border: 1px double black;
+        }
+    </style>
 </head>
 <body>
-    <h1>Index Page</h1>
+    <div class="container">
+        <h1>Index Page</h1>
     <table>
-        <tr>HTML Task</tr>
+        <th colspan="2">HTML Task</th>
         <tr>
-            <td>Task Number</td>
-            <td>Link</td>
+            <th>Task Number</th>
+            <th>Link</th>
         </tr>
         <tr>
             <td>Task1</td>
@@ -26,5 +39,6 @@
             <td>Link3</td>
         </tr>
     </table>
+    </div>
 </body>
 </html>
