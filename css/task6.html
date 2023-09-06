@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task6</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 40px 0px;
+        }
+
+        .img {
+            max-width: 100px;
+            height: auto;
+        }
+
+        form {
+            padding-top:20px
+        }
+
+        input[type='text']{
+            width:100%;
+        }
+
+        input[type='password']{
+            width:100%;
+        }
+
+        .login-btn{
+            width:100%;
+            background-color: green;
+            margin: 20px 0px;
+            color: white;
+            border: none;
+        }
+
+        .bg-red{
+            background-color: red;
+        }
+
+        .box{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height:40px;
+            width:100%;
+            background-color: rgb(197, 197, 197);
+        }
+
+        .submit{
+            background-color: red;
+            color: white;
+            border: none;
+            margin-left: 10px;
+        }
+
+        .box p{
+            text-size-adjust: 70%;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="profile.png" alt="profile-pic" width="200" height="200">
+        <form>
+            <b>Username</b>
+            <br>
+            <input type="text" id="">
+            <br>
+            <br>
+            <b>Password</b>
+            <br>
+            <input type="password" id="">
+            <br>
+            <button class="login-btn">Login</button>
+            <br>
+            <input type="checkbox" id="">
+            <label for="">Remember me</label>
+            <br>
+            <br>
+            <div class="box">
+                <button class="submit">Cancel</button>
+                <p>Forgot Password?</p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
